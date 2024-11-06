@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: commands.AddCreditOfferTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.272 s <<< FAILURE! - in commands.AddCreditOfferTest
+commands.AddCreditOfferTest.testAddBusinessCreditOffer  Time elapsed: 0.249 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+creditOfferManager.addCreditOffer(
+    <Capturing argument: BusinessCreditOffer>
+);
+-> at credit.CreditOfferManager.addCreditOffer(CreditOfferManager.java:13)
+Actually, there were zero interactions with this mock.
+
+	at commands.AddCreditOfferTest.testAddBusinessCreditOffer(AddCreditOfferTest.java:68)
+
+commands.AddCreditOfferTest.testAddPersonalCreditOffer  Time elapsed: 0.014 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+creditOfferManager.addCreditOffer(
+    <Capturing argument: PersonalCreditOffer>
+);
+-> at credit.CreditOfferManager.addCreditOffer(CreditOfferManager.java:13)
+Actually, there were zero interactions with this mock.
+
+	at commands.AddCreditOfferTest.testAddPersonalCreditOffer(AddCreditOfferTest.java:43)
+

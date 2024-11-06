@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: credit.BusinessCreditOfferTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.136 s <<< FAILURE! - in credit.BusinessCreditOfferTest
+credit.BusinessCreditOfferTest.testToString  Time elapsed: 0.095 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Кредитна пропозиція від Test Bank, Ставка: 5.5, Термін: 24 міс., Дострокове погашення: true, Збільшення кредитної лінії: false, Мінімальний оборот компанії: 100000.0> but was: <Банк: Test Bank, Ставка: 5.5%, Термін: 24 міс., Дострокове погашення: Так, Збільшення кредитної лінії: Ні, Мінімальний оборот компанії: 100000.0>
+	at credit.BusinessCreditOfferTest.testToString(BusinessCreditOfferTest.java:44)
+
+credit.BusinessCreditOfferTest.testBusinessCreditOfferConstructor  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.StackOverflowError
+

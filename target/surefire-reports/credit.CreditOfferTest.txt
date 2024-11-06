@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: credit.CreditOfferTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.147 s <<< FAILURE! - in credit.CreditOfferTest
+credit.CreditOfferTest.testToString  Time elapsed: 0.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Банк: Example Bank, Ставка: 3.5%, Термін: 24 міс., Дострокове погашення: Так, Збільшення кредитної лінії: Ні> but was: <Банк: Example Bank, Ставка: 3.5%, Термін: 24 міс., Дострокове погашення: Так, Збільшення кредитної лінії: Ні, Максимальна сума кредиту: 10000.0>
+	at credit.CreditOfferTest.testToString(CreditOfferTest.java:44)
+
+credit.CreditOfferTest.testIsEarlyRepayment  Time elapsed: 0.037 s  <<< ERROR!
+java.lang.StackOverflowError
+
+credit.CreditOfferTest.testGetRate  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.StackOverflowError
+
+credit.CreditOfferTest.testGetTerm  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <24> but was: <0>
+	at credit.CreditOfferTest.testGetTerm(CreditOfferTest.java:28)
+
+credit.CreditOfferTest.testIsCreditLineIncrease  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.StackOverflowError
+

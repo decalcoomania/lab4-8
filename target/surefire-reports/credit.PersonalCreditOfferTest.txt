@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: credit.PersonalCreditOfferTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.113 s <<< FAILURE! - in credit.PersonalCreditOfferTest
+credit.PersonalCreditOfferTest.testIsEarlyRepayment  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.StackOverflowError
+
+credit.PersonalCreditOfferTest.testGetRate  Time elapsed: 0.029 s  <<< ERROR!
+java.lang.StackOverflowError
+
+credit.PersonalCreditOfferTest.testGetTerm  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <24> but was: <0>
+	at credit.PersonalCreditOfferTest.testGetTerm(PersonalCreditOfferTest.java:28)
+
+credit.PersonalCreditOfferTest.testIsCreditLineIncrease  Time elapsed: 0.022 s  <<< ERROR!
+java.lang.StackOverflowError
+
+credit.PersonalCreditOfferTest.testGetMaxLoanAmount  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <10000> but was: <10000.0>
+	at credit.PersonalCreditOfferTest.testGetMaxLoanAmount(PersonalCreditOfferTest.java:49)
+

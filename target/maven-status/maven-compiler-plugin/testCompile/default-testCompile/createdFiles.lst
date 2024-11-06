@@ -1,0 +1,12 @@
+commands\DeleteCreditOfferByBankTest.class
+credit\CreditOfferTest.class
+commands\DisplayCreditOffersTest.class
+credit\CreditOfferManagerTest.class
+app\LoanAppTest.class
+credit\PersonalCreditOfferTest.class
+commands\SearchCreditOfferByBankTest.class
+commands\DeleteCreditOfferByIndexTest.class
+commands\SaveCreditOffersTest.class
+commands\SearchCreditOfferByRateTest.class
+credit\BusinessCreditOfferTest.class
+commands\AddCreditOfferTest.class

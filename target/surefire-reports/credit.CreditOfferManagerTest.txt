@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: credit.CreditOfferManagerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.224 s <<< FAILURE! - in credit.CreditOfferManagerTest
+credit.CreditOfferManagerTest.testSaveToFile  Time elapsed: 0.082 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: credit.PersonalCreditOffer@afb5821<Банк: Test Bank, Ставка: 5.5%, Термін: 12 міс., Дострокове погашення: Так, Збільшення кредитної лінії: Ні, Максимальна сума кредиту: 10000.0> but was: credit.PersonalCreditOffer@6df7988f<Банк: Test Bank, Ставка: 5.5%, Термін: 12 міс., Дострокове погашення: Так, Збільшення кредитної лінії: Ні, Максимальна сума кредиту: 10000.0>
+	at credit.CreditOfferManagerTest.testSaveToFile(CreditOfferManagerTest.java:97)
+
+credit.CreditOfferManagerTest.testSearchByRate  Time elapsed: 0.03 s  <<< ERROR!
+java.lang.StackOverflowError
+
+credit.CreditOfferManagerTest.testLoadFromFile  Time elapsed: 0.024 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: credit.PersonalCreditOffer@6079cf5<Банк: Test Bank, Ставка: 5.5%, Термін: 12 міс., Дострокове погашення: Так, Збільшення кредитної лінії: Ні, Максимальна сума кредиту: 10000.0> but was: credit.PersonalCreditOffer@1e6308a9<Банк: Test Bank, Ставка: 5.5%, Термін: 12 міс., Дострокове погашення: Так, Збільшення кредитної лінії: Ні, Максимальна сума кредиту: 10000.0>
+	at credit.CreditOfferManagerTest.testLoadFromFile(CreditOfferManagerTest.java:114)
+

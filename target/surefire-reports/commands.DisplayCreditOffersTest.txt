@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: commands.DisplayCreditOffersTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.1 s <<< FAILURE! - in commands.DisplayCreditOffersTest
+commands.DisplayCreditOffersTest.testExecuteDisplaysCreditOffers  Time elapsed: 0.083 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <0. Кредитна пропозиція 1
+1. Кредитна пропозиція 2
+> but was: <0. Кредитна пропозиція 1
+1. Кредитна пропозиція 2
+>
+	at commands.DisplayCreditOffersTest.testExecuteDisplaysCreditOffers(DisplayCreditOffersTest.java:61)
+
+commands.DisplayCreditOffersTest.testExecuteDisplaysNoOffersMessage  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Немає доступних кредитних пропозицій.
+> but was: <Немає доступних кредитних пропозицій.
+>
+	at commands.DisplayCreditOffersTest.testExecuteDisplaysNoOffersMessage(DisplayCreditOffersTest.java:40)
+

@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: app.LoanAppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 2.606 s <<< FAILURE! - in app.LoanAppTest
+app.LoanAppTest.testSomeFunctionality  Time elapsed: 2.424 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at app.LoanAppTest.setUp(LoanAppTest.java:34)
+
+app.LoanAppTest.testMainMethodInvalidChoice  Time elapsed: 0.011 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at app.LoanAppTest.setUp(LoanAppTest.java:34)
+
+app.LoanAppTest.testMainMethod  Time elapsed: 0.007 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at app.LoanAppTest.setUp(LoanAppTest.java:34)
+
